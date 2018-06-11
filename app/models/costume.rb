@@ -6,6 +6,7 @@ class Costume < ActiveRecord::Base
    create_table :costumes do |t|
      t.string :name
      t.float :price
-     t.
+     t.string :size
+     t.string :image_url
    end
 end
