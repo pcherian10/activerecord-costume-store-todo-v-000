@@ -9,4 +9,5 @@ class Costume < ActiveRecord::Base
      t.string :size
      t.string :image_url
    end
+   end
 end
