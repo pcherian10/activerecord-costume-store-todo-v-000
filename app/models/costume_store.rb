@@ -6,7 +6,7 @@ class CostumeStore < ActiveRecord::Base
         t.string :location
         t.integer :costume_inventory
         t.integer :num_of_employees
-        t.boolean :stil_in_business
+        t.boolean :still_in_business
         t.datetime :opening_date
         t.datetime :closing_date
         t.string :long_description
